@@ -206,6 +206,8 @@ h2::before{
     font-size: 1.0rem;
     color : #888;
     font-weight: bold;
+    border-bottom: 1px solid rgb(197, 184, 184);
+    align-items: center;
 }
 
 
@@ -245,6 +247,19 @@ li{
     font-size: 1.2rem;
     color:black;
     margin: 0 auto;
+    width: 100%;
+    margin-bottom: 0.5%;
+}
+
+.deep_desc{
+    color:black;
+    margin-left: 17%;
+    list-style-type:circle;
+    margin-bottom: 0.5%;
+}
+
+.first{
+    font-weight: bold;
 }
 
 .skill-message {
@@ -258,27 +273,8 @@ li{
     margin: 0 auto;
 }
 
-.skillname {
-    padding: 0 1rem;
-    min-width: 200px;
-    height: 50px;
-    align-items: center;
-    display: flex;
-    font-size: 1.5rem;
-}
-
-
 .skillvalue{
     width: 200px;
-    display: flex;
-    margin-left: 0.5em;
-    height: 50px;
-    font-size: 0.5rem;
-    color : #888;
-    font-weight: bold;
-    align-items: center;
-    justify-content: left;
-    text-align: left;
 }
 
 
@@ -349,7 +345,7 @@ li{
     }
 
     .canvas-caption strong{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .date,.contents{
@@ -372,6 +368,7 @@ li{
         width: 20%;
         font-size: 2vw;
     }
+
     
 }
 
