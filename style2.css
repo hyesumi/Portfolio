@@ -70,7 +70,7 @@ h2{
 h2::before{
     font-weight: bold;
     max-width: 1000px;
-    content: "안녕하세요, 개발자 신혜지를 소개합니다.";
+    content: "안녕하세요, 저는 신혜지라고 합니다.";
     position: absolute;
     top: 0;
     left: 0;
@@ -108,6 +108,7 @@ h2::before{
 
 .scroll-section {
     padding-top: 30vh;
+    min-height: 700px;
 }
 
 #scroll-section-0 h1{
@@ -197,6 +198,17 @@ h2::before{
     margin-right: auto;
 }
 
+.skilllist{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 1rem;
+    font-size: 1.0rem;
+    color : #888;
+    font-weight: bold;
+}
+
+
 .canvas-caption {
     padding: 0 1rem;
     font-size: 1.2rem;
@@ -205,9 +217,30 @@ h2::before{
     margin: 0 auto;
 }
 
+.canvas-caption-introduce {
+    padding: 0 1rem;
+    font-size: 1rem;
+    color:black;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.canvas-caption strong {
+    font-size: 1.5rem;
+    color:black;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.skill{
+    color: black;
+    margin-left: 2em;
+    margin-right: 2em;
+    justify-content: center;
+    align-items: center;
+}
 
 li{
-    padding: 0 1rem;
     max-width: 1000px;
     font-size: 1.2rem;
     color:black;
@@ -224,6 +257,30 @@ li{
     max-width: 1000px;
     margin: 0 auto;
 }
+
+.skillname {
+    padding: 0 1rem;
+    min-width: 200px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+
+.skillvalue{
+    width: 200px;
+    display: flex;
+    margin-left: 0.5em;
+    height: 50px;
+    font-size: 0.5rem;
+    color : #888;
+    font-weight: bold;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+
 
 .footer{
     display: flex;
@@ -287,12 +344,33 @@ li{
         font-size: 2rem;
     }
 
+    .canvas-caption-introduce{
+        font-size: 1.5rem;
+    }
+
+    .canvas-caption strong{
+        font-size: 2rem;
+    }
+
     .date,.contents{
         font-size: 2vw;
     }
 
     .skill-message{
         font-size: 1.5vw;
+    }
+    
+    .skilllist{
+        font-size: 2vw;
+    }
+
+    .skillvalue{
+        font-size: 1.5vw;
+    }
+
+    .skillname{
+        width: 20%;
+        font-size: 2vw;
     }
     
 }
